@@ -11,6 +11,7 @@ import java.util.ArrayList;
 public class ListaActivity extends AppCompatActivity {
 
     ListView listView;
+    private final String URL= "http://192.168.101.37:3000/";
     DBHelper dbHelper;
     ArrayList<String> lista;
 
